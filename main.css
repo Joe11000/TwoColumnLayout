@@ -10,26 +10,37 @@
   margin: 0 auto;  
   width: 720px;
 }
-div .feature:nth-child(odd) img
-{
-    float:right;
-    margin-left:20px;
-    height:inherit;
-}
+
 div .feature:nth-child(odd) p
 {
-    width:50%;
+    width:48%;
+}
+
+div .feature:nth-child(odd) img
+{
+    clear:both;
+    float:right;
+    margin-left:15px;
+    height:inherit;
+}
+
+div .feature:nth-child(odd) 
+{
+  clear: both;
 }
 
 div .feature:nth-child(even) img
 {
-    float:left;
-    margin-right:20px;
-    height:inherit;
+  float: left;
+    /*margin-right:20px;*/
 }
-div .feature:nth-child(even) p
+
+#evenFloatRight
 {
-    width:50%;
+  /*clear:both;*/
+  float:right;
+  display:inline;
+  width:46%;
 }
 
 div.feature h4
@@ -39,5 +50,6 @@ div.feature h4
 
 div.feature
 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+
 }
