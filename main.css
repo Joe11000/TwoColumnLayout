@@ -10,3 +10,34 @@
   margin: 0 auto;  
   width: 720px;
 }
+div .feature:nth-child(odd) img
+{
+    float:right;
+    margin-left:20px;
+    height:inherit;
+}
+div .feature:nth-child(odd) p
+{
+    width:50%;
+}
+
+div .feature:nth-child(even) img
+{
+    float:left;
+    margin-right:20px;
+    height:inherit;
+}
+div .feature:nth-child(even) p
+{
+    width:50%;
+}
+
+div.feature h4
+{
+    display:inline;
+}
+
+div.feature
+{
+  margin-bottom: 30px;
+}
