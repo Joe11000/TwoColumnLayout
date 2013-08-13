@@ -1,0 +1,38 @@
+.container 
+{
+  margin: 0 auto;  
+  width: 720px;
+}
+
+div .feature
+{
+  clear:both;
+  
+  div
+  {
+     width:48%;
+  }
+  
+  &:nth-child(odd)
+  {
+    img
+    {
+      float:right;
+    }
+  }
+
+  &:nth-child(even)
+  {
+    div
+    {
+      float:right;
+    }
+    h4
+    {
+      margin-top:0;
+    }
+  }
+}
+
+
+

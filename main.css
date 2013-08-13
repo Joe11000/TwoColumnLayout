@@ -1,64 +1,25 @@
 .container {
-  /*
-    If you have a block-level element of a certain width, margin: 0 auto;
-    will how you center it inside its parent container.
+  margin: 0 auto;
+  width: 720px; }
 
-    See: http://bluerobot.com/web/css/center1.html
-    
-    Don't change the container width.
-  */
-  margin: 0 auto;  
-  width: 720px;
-}
-div .feature
+div .feature 
 {
-  min-height:200px;
+  clear: both; 
 }
 
-div .feature:nth-child(odd) p
+div .feature div 
 {
-    width:48%;
+  width: 48%; 
 }
-
-div .feature:nth-child(odd) img
+div .feature:nth-child(odd) img 
 {
-    clear:both;
-    float:right;
-    margin-left:15px;
-    height:inherit;
+  float: right; 
 }
-
-div .feature:nth-child(odd) 
+div .feature:nth-child(even) div 
 {
-  clear: both;
+  float: right; 
 }
-div .feature:nth-child(even)
+div .feature:nth-child(even) h4 
 {
-    height:inherit;
-    /*margin-right:20px;*/
-}
-
-div .feature:nth-child(even) img
-{
-  float: left;
-    /*margin-right:20px;*/
-}
-
-#evenFloatRight
-{
-  /*clear:both;*/
-  float:right;
-  display:inline;
-  width:46%;
-}
-
-div.feature h4
-{
-    display:inline;
-}
-
-div.feature
-{
-  margin-bottom: 45px;
-
+  margin-top: 0; 
 }
